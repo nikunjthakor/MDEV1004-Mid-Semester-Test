@@ -11,7 +11,7 @@ interface IBook
   genres: string[];
   country: string;
   description: string;
-  publicationDate: Date;
+  publicationDate: string;
   publisher: string;
   pageCount: number;
   language: string;
@@ -28,7 +28,7 @@ let bookSchema = new Schema<IBook>
   genres: [String],
   country: String,
   description: String,
-  publicationDate: Date,
+  publicationDate: String,
   publisher: String,
   pageCount: Number,
   language: String,

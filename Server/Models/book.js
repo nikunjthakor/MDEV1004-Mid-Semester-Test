@@ -8,7 +8,7 @@ let bookSchema = new mongoose_1.Schema({
     genres: [String],
     country: String,
     description: String,
-    publicationDate: Date,
+    publicationDate: String,
     publisher: String,
     pageCount: Number,
     language: String,
